@@ -33,19 +33,28 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">GESTION</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li class="active"><a href="#"><i class="fa fa-area-chart"></i> <span>Dashboard</span></a></li>
+        <li><a href="#"><i class="fa fa-search"></i> <span>Inventaire</span></a></li>
+        <li><a href="#"><i class="fa fa-cubes"></i> <span>Construction</span></a></li>
+        
+        <li><a href="#"><i class="fa fa-trash"></i> <span>Démantellement</span></a></li>
+        <li><a href="#"><i class="fa fa-coffee"></i> <span>Suivi Projet</span></a></li>
+        <li class="header">Services</li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="fa fa-laptop"></i> <span>Serveur</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><a href="#">Virtuel</a></li>
+            <li><a href="#">Physique</a></li>
           </ul>
         </li>
+        <li><a href="#"><i class="fa fa-exchange"></i> <span>Réseau</span></a></li>
+        <li><a href="#"><i class="fa fa-database"></i> <span>Base de données</span></a></li>
+        <li><a href="#"><i class="fa fa-hdd-o"></i> <span>Stockage</span></a></li>
+        <li><a href="#"><i class="fa fa-thumbs-o-up"></i> <span>XaaS</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
