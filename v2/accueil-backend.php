@@ -34,14 +34,14 @@
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3>150</h3>
+              <h3>2641</h3>
 
-              <p>VM Projet actives</p>
+              <p>Serveurs inventoriés</p>
             </div>
             <div class="icon">
-              <i class="fa fa-shopping-cart"></i>
+              <i class="fa fa-search"></i>
             </div>
-            <a href="#" class="small-box-footer">
+            <a href="inventaire.php" class="small-box-footer">
               Détail <i class="fa fa-arrow-circle-right"></i>
             </a>
           </div>
@@ -51,12 +51,12 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>25</h3>
+              <h3>47</h3>
 
-              <p>Serveurs physiques en construction</p>
+              <p>Projets en cours</p>
             </div>
             <div class="icon">
-              <i class="ion ion-stats-bars"></i>
+              <i class="fa fa-coffee"></i>
             </div>
             <a href="#" class="small-box-footer">
               Détail <i class="fa fa-arrow-circle-right"></i>
@@ -70,10 +70,10 @@
             <div class="inner">
               <h3>22</h3>
 
-              <p>Démantelement en cours</p>
+              <p>Démantelements en cours</p>
             </div>
             <div class="icon">
-              <i class="ion ion-person-add"></i>
+              <i class="fa fa-star-half-full"></i>
             </div>
             <a href="#" class="small-box-footer">
               Détail <i class="fa fa-arrow-circle-right"></i>
@@ -87,7 +87,7 @@
             <div class="inner">
               <h3>12</h3>
 
-              <p>Echecs</p>
+              <p>Demandes en echecs</p>
             </div>
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
@@ -205,6 +205,19 @@
           <!-- /.box -->
         </div>
       
+        <div class="col-md-12">
+          <div class="box box-solid">
+            <div class="box-header with-border">
+              <h3 class="box-title"><i class="fa fa-bar-chart-o fa-fw"></i> Construction serveurs</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div id="grapheBuildPerMonth"></div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
       
       
       
