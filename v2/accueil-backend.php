@@ -90,7 +90,7 @@
               <p>Demandes en echecs</p>
             </div>
             <div class="icon">
-              <i class="ion ion-pie-graph"></i>
+              <i class="ion ion-alert"></i>
             </div>
             <a href="#" class="small-box-footer">
               Détail <i class="fa fa-arrow-circle-right"></i>
@@ -130,6 +130,7 @@
                   <th>ID</th>
                   <th>Demandeur</th>
                   <th>Type</th>
+                  <th></th>
                   <th>Date demande</th>
                   <th>Etat</th>
                   <th></th>
@@ -138,6 +139,7 @@
                   <td><a href='#'>2185</a></td>
                   <td>John Doe</td>
                   <td>Centos</td>
+                  <td>SL100571</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-success">Réussi</span></td>
                   <td>3 Machines pour test Rancher + docker</td>
@@ -146,6 +148,7 @@
                   <td><a href='#'>2184</a></td>
                   <td>John Doe</td>
                   <td>Centos</td>
+                  <td>SL100570</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-success">Réussi</span></td>
                   <td>3 Machines pour test Rancher + docker</td>
@@ -154,6 +157,7 @@
                   <td><a href='#'>2183</a></td>
                   <td>John Doe</td>
                   <td>Centos</td>
+                  <td>SL100569</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-success">Réussi</span></td>
                   <td>3 Machines pour test Rancher + docker</td>
@@ -162,6 +166,7 @@
                   <td><a href='#'>2182</a></td>
                   <td>Alexander Pierce</td>
                   <td>PDB Oracle</td>
+                  <td>KGEDSAE</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-warning">Approbation</span></td>
                   <td>Base de test pour Poc BRMS</td>
@@ -170,6 +175,7 @@
                   <td><a href='#'>2181</a></td>
                   <td>Bob Doe</td>
                   <td>RedHat 7.2</td>
+                  <td>SL100580</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-primary">En cours</span></td>
                   <td>.</td>
@@ -178,6 +184,7 @@
                   <td><a href='#'>2180</a></td>
                   <td>Mike Doe</td>
                   <td>Alias DNS</td>
+                  <td>vpn-lb-3.maif.local</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-danger">Erreur</span></td>
                   <td></td>
@@ -186,6 +193,7 @@
                   <td><a href='#'>2179</a></td>
                   <td>Mike Doe</td>
                   <td>Alias DNS</td>
+                  <td>vpn-lb-3.maif.local</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-danger">Erreur</span></td>
                   <td></td>
@@ -194,6 +202,7 @@
                   <td><a href='#'>2178</a></td>
                   <td>Mike Doe</td>
                   <td>Alias DNS</td>
+                  <td>vpn-lb-3.maif.local</td>
                   <td>21/09/2017</td>
                   <td><span class="label label-danger">Erreur</span></td>
                   <td></td>
@@ -235,5 +244,8 @@
 	include_once '_templates/requiredJs.php';
 ?> 
 
- 
+<script> $('#dashboard').addClass('active');</script>
+
+</body>
+</html> 
 

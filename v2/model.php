@@ -46,5 +46,9 @@
 	include_once '_templates/footer.php';
 	include_once '_templates/ctrlSideBar.php';
 	include_once '_templates/requiredJs.php';
-?>    
+?> 
+
+<script> $('#_XX_').addClass('active');</script>
+</body>
+</html>
           

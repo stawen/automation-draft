@@ -37,7 +37,7 @@
 
             <!-- /.box-header -->
             <div class="box-body">
-              <table id="serveur" class="table table-bordered table-striped">
+              <table id="serveur" class="table table-hover table-striped">
                 <thead>
                   <tr>
                     <th>Nom</th>
@@ -55,7 +55,7 @@
                 <tbody>
                   <tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100298</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php?srv=SL100298">SL100298</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>SRV DOCKER HOST PROJET IAAS DEMO</td>
@@ -69,7 +69,7 @@
             			</tr>
             			<tr>
             				<td>
-            					<i class="fa fa-server">&nbsp;</i><a href="#">SL100299</a> 
+            					<i class="fa fa-server">&nbsp;</i><a href="detail_srv.php?srv=SL100299">SL100299</a> 
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>SRV DOCKER HOST PROJET IAAS DEMO</td>
@@ -83,7 +83,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100329</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php?srv=SL100329">SL100329</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>ARGOS - Ansible</td>
@@ -97,7 +97,7 @@
             			</tr>
             			<tr>
             				<td>
-            					<i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100351</a>
+            					<i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100351</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/check.png" title="En SERVICE"></td>
             				<td>Docker Rancher Orchestrator - MariaDB</td>
@@ -111,7 +111,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100373</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100373</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Docker Rancher Orchestrator - Cluster Applicatif</td>
@@ -125,7 +125,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100374</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100374</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Docker Rancher Orchestrator - Cluster Applicatif</td>
@@ -139,7 +139,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100380</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100380</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Technique</td>
@@ -153,7 +153,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100385</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100385</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -167,7 +167,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100392</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100392</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -181,7 +181,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100393</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100393</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -195,7 +195,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100394</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100394</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -209,7 +209,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100395</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100395</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -223,7 +223,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100396</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100396</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -237,7 +237,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100397</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100397</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -251,7 +251,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100398</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100398</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -265,7 +265,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100399</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100399</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -279,7 +279,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100400</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100400</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
@@ -293,7 +293,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100417</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100417</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>VM pour POC Ansible - MCO 2017 - R002017002</td>
@@ -307,7 +307,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100418</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100418</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>VM pour POC Ansible - MCO 2017 - R002017002</td>
@@ -321,7 +321,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100419</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100419</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>VM pour POC Ansible - MCO 2017 - R002017002</td>
@@ -335,7 +335,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100444</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100444</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>TTECH RANCHER</td>
@@ -349,7 +349,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100445</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100445</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>TTECH RANCHER</td>
@@ -363,7 +363,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100455</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100455</a>
             				</td>
             				<td><img src="/v2/asset/img/redcross.png" title="Ping KO (14-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>TEST RANCHER</td>
@@ -377,7 +377,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100483</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100483</a>
             				</td>
             				<td><img src="/v2/asset/img/redcross.png" title="Ping KO (01-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>test wil</td>
@@ -391,7 +391,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100491</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100491</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP4 - D - FDII - Identity Provider - PingIdentity - Cluster LAN PProd Tech</td>
@@ -405,7 +405,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100492</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100492</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP3 - D - FDII - Identity Provider - PingIdentity - Cluster LAN PProd Tech</td>
@@ -419,7 +419,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100493</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100493</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP4 - K - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
@@ -433,7 +433,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100494</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100494</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP3 - K - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
@@ -447,7 +447,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100497</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100497</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>Remplacement Minify</td>
@@ -461,7 +461,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100512</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100512</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP1 - D - FDII - Identity Provider - PingIdentity - LAN</td>
@@ -475,7 +475,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100513</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100513</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP2 - I - FDII - Identity Provider - PingIdentity - LAN</td>
@@ -489,7 +489,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100515</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100515</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP1 - E - FDII - Identity Provider - PingIdentity - LAN</td>
@@ -503,7 +503,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100516</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100516</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP6 - E - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
@@ -517,7 +517,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100517</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100517</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>IDP5 - E - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
@@ -531,7 +531,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100518</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100518</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>TEST DOCKER</td>
@@ -545,7 +545,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100523</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100523</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Amélioration exploitabilité serveurs</td>
@@ -559,7 +559,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100524</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100524</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Amélioration exploitabilité serveurs</td>
@@ -573,7 +573,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100525</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100525</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Amélioration exploitabilité serveurs</td>
@@ -587,7 +587,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100526</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100526</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Amélioration exploitabilité serveurs</td>
@@ -601,7 +601,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100527</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100527</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Amélioration exploitabilité serveurs</td>
@@ -615,7 +615,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100528</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100528</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Amélioration exploitabilité serveurs</td>
@@ -629,7 +629,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100555</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100555</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>POC Serveur Neoj4 projet Fraude/Graph BDD</td>
@@ -643,7 +643,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100558</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100558</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
             				<td>Ansible Recette</td>
@@ -657,7 +657,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100559</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100559</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>Syslog-ng ELK</td>
@@ -671,7 +671,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100564</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100564</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>demo IaaS-Rancher</td>
@@ -685,7 +685,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100567</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100567</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>demo stan</td>
@@ -699,7 +699,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100569</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100569</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>IaaS - test Postgres dans Docker</td>
@@ -713,7 +713,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100570</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100570</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>IaaS - test Postgres dans Docker</td>
@@ -727,7 +727,7 @@
             			</tr>
             			<tr>
             				<td>
-            					 <i class="fa fa-vimeo">&nbsp;</i><a href="#">SL100571</a>
+            					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100571</a>
             				</td>
             				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
             				<td>IaaS - test Postgres dans Docker</td>
@@ -769,4 +769,8 @@
 	include_once '_templates/ctrlSideBar.php';
 	include_once '_templates/requiredJs.php';
 ?>    
+<script> $('#inventaire').addClass('active');</script>
+
+</body>
+</html>
           

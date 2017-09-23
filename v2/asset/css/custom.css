@@ -1,0 +1,4 @@
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #3c8dbc;
+    background-color: #9a9fa2 !important;
+}
