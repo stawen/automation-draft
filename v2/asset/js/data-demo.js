@@ -95,4 +95,16 @@ $('#srvModalWarningConfirm').click(function(){
 		
 });
 
-
+var env = {
+	'E-PRODUCTION':{
+		'C1':[
+			'Haute Disponibilié',
+			'Logiciel'
+		],
+		'C2':[
+			'sdjffj',
+			'Restauration'
+		],
+		
+	}
+};

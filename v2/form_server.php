@@ -25,7 +25,7 @@
         | Your Page Content Here |
         -------------------------->
         <div class="col-md-12">
-          <div class="box box-solid">
+          <div class="box box-solid" id="infoCreateVm">
             <div class="box-body">
               
               <form class="form-horizontal">
@@ -74,13 +74,24 @@
                       <input type="text" class="form-control" id="codeBudget" tabindex="4" placeholder="Code budgetaire investissement pour la facturation">
                     </div>
                   </div>
- 
+                  
+                  <div class="form-group">
+                     <label for="nbVm" class="col-md-2 control-label">Nombre de VM :</label>
+                     <div class="col-md-6">
+                        <input tabindex="5" id="nbVm" type="text" value="1" class="slider form-control" data-slider-min="1" data-slider-max="10"
+                             data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal"
+                             data-slider-selection="before" data-slider-tooltip="show" data-slider-id="yellow">
+                       <span id="nbVmVal">1</span></span> Machine(s) virtuelle(s)
+                     </div>
+                </div>
+                  
                   <div class="form-group">
                      <label for="vcpu" class="col-md-2 control-label">Vcpu :</label>
                      <div class="col-md-6">
-                       <input tabindex="4" id="vcpu" type="text" value="1" class="slider form-control" data-slider-min="1" data-slider-max="8"
+                       <!--input tabindex="4" id="vcpu" type="text" value="1" class="slider form-control" data-slider-min="1" data-slider-max="8"
                              data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal"
-                             data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue">
+                             data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue"-->
+                       <input id="vcpu" type="text" class="slider form-control" data-slider-ticks="[1,2,3,4,5,6,7,8]" data-slider-ticks-snap-bounds="1" data-slider-id="blue" data-slider-value="1" tabindex="5"/>     
                        <span id="vcpuVal">1</span> Vcpu
                      </div>
                   </div>
@@ -124,19 +135,46 @@
                       </select>
                     </div>  
                   </div>
+                 
+                 <div class="form-group">
+                  <label for="criticite" class="col-md-2 control-label">Criticité :</label>
+                  <div class="col-md-6">
+                    <select class="form-control" id="criticite" style="width: 100%;" tabindex="8" aria-hidden="true">
+                      <option>C1</option>
+                      <option>C2</option>
+                      <option>C3</option>
+                    </select>
+                  </div>  
+                </div>
+                
+                <div class="form-group">
+                  <label for="pra" class="col-md-2 control-label">Restauration sur perte :</label>
+                  <div class="col-md-6">
+                    <select class="form-control" id="criticite" style="width: 100%;" tabindex="9" aria-hidden="true">
+                      <option>Haute Disponibilité</option>
+                      <option>Logiciel</option>
+                    </select>
+                  </div>  
+                </div>
  
- 
- 
+                <div class="form-group">
+                     <label for="bail" class="col-md-2 control-label">Bail :</label>
+                     <div class="col-md-6">
+                       <input id="bail" type="text" class="slider form-control" data-slider-ticks="[3,10,30,60,90]" data-slider-ticks-snap-bounds="30" data-slider-id="blue" data-slider-value="1" tabindex="10"/>
+                       <span id="bailVal">2</span></span> jours
+                     </div>
+                </div>
  
  
                 </div>
+                </form>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                  <button type="submit" class="btn btn-default" id="abordCreatedSrv">Cancel</button>
-                  <button type="submit" class="btn btn-info pull-right">Créer</button>
+                  <button class="btn btn-default" id="cancelCreatedSrv">Cancel</button>
+                  <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-createvm-info" id="btCreateVm" tabindex="11">Créer</button>
                 </div>
                 <!-- /.box-footer -->
-              </form>
+              
               
               
               
@@ -145,6 +183,21 @@
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
+          <div class="box box-solid hidden" id="createVmOk">
+            <div class="box-body">
+              <div class="col-md-12">
+                <h2><i class="fa fa-check fa-2x text-success"></i>Creation de machine(s) virtuelle(s) demandée(s)</h2>
+              </div>
+            </div>
+            <div class="box-footer">
+                  <button class="btn btn-info pull-right" id="btOk">Ok</button>
+                </div>
+          </div>
+          
+          
+          
+          
+          
         </div>
      
       
@@ -156,6 +209,28 @@
       
       </div>
 
+
+      <div class="modal modal-info fade" id="modal-createvm-info">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Confirmation</h4>
+              </div>
+              <div class="modal-body">
+                <p>Confirmez-vous la création de machine(s) virtuelle(s) ?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-outline" id="btCreateVmModalConfirm">Confirmer</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
 
     </section>
     <!-- /.content -->
@@ -170,6 +245,8 @@
 
 <script> 
   $('#server').addClass('active');
+  //$('#createVmOk').hide();
+   
   $('.selectSearch').select2({
     placeholder: 'Précisez le cadre de la demande'
   });
@@ -181,10 +258,27 @@
   $("#ram").on("slide", function(slideEvt) {
     $("#ramVal").text(slideEvt.value);
   });
+  $("#bail").on("slide", function(slideEvt) {
+    $("#bailVal").text(slideEvt.value);
+  });
+  $("#nbVm").on("slide", function(slideEvt) {
+    $("#nbVmVal").text(slideEvt.value);
+  });
 
-  $('#abordCreatedSrv').click(function(){
-    
-  })
+  $('#cancelCreatedSrv').click(function(){
+    window.location.replace("services_server.php");
+  });
+  
+  $('#btCreateVmModalConfirm').click(function(){
+    $('#modal-createvm-info').modal('toggle');
+    $('#infoCreateVm').hide();
+    $('#createVmOk').removeClass('hidden');
+  });
+  
+  $('#btOk').click(function(){
+    window.location.replace("suivi_service.php");
+  });
+  
 </script>
 </body>
 </html>
