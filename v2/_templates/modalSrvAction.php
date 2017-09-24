@@ -11,7 +11,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Annuler</button>
-                <button type="button" class="btn btn-outline">Confirmer</button>
+                <button type="button" class="btn btn-outline" id="srvModalWarningConfirm">Confirmer</button>
               </div>
             </div>
             <!-- /.modal-content -->

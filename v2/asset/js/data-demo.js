@@ -89,4 +89,10 @@ $('#srvRefresh').click(function(){
   Pace.restart();	
 });
 
+$('#srvModalWarningConfirm').click(function(){
+	$('.nav-tabs a[href="#tab_3"]').tab('show');
+	$('#modal-warning').modal('toggle');
+		
+});
+
 

@@ -56,17 +56,8 @@
         <li id="services"><a href="#"><i class="fa fa-cubes"></i> <span>Suivi Services</span></a></li>
         
         <li class="header">Catalogue de Services</li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-laptop"></i> <span>Serveur</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li id="srv_virtuel"><a href="#">Virtuel</a></li>
-            <li id="srv_physique"><a href="#">Physique</a></li>
-          </ul>
-        </li>
+    
+        <li id="server"><a href="services_server.php"><i class="fa fa-laptop"></i> <span>Serveur</span></a></li>
         <li id="reseau"><a href="#"><i class="fa fa-exchange"></i> <span>Réseau</span></a></li>
         <li id="bdd"><a href="#"><i class="fa fa-database"></i> <span>Base de données</span></a></li>
         <li id="stockage"><a href="#"><i class="fa fa-hdd-o"></i> <span>Stockage</span></a></li>

@@ -2,3 +2,9 @@
     border-top-color: #3c8dbc;
     background-color: #9a9fa2 !important;
 }
+
+.box-services:hover{
+    background-color: #d2d6de; /* make this whatever you want */
+}
+
+
