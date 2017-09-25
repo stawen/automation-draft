@@ -28,11 +28,14 @@
         | Your Page Content Here |
         -------------------------->
         <!-- Custom Tabs -->
-          <div class="nav-tabs-custom">
+        <div class="col-md-12">
+          <div id="detailSrv">
+            <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#tab_1" data-toggle="tab">Générale</a></li>
               <li><a href="#tab_2" data-toggle="tab">Produits installés</a></li>
               <li><a href="#tab_3" data-toggle="tab">Historique</a></li>
+              <li><a href="#tab_fs" data-toggle="tab">Disque(s) / FS</a></li>
               <li><a href="#tab_4" data-toggle="tab">Rapport Sécu</a></li>
               <li><a href="#tab_5" data-toggle="tab">Ref Infra</a></li>
               
@@ -43,7 +46,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="srvRefresh"><i class="fa fa-refresh"></i>Forcer Refresh</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-pencil"></i>Modifier Config System</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="btChangeConfigSrv"><i class="fa fa-pencil"></i>Modifier Config System</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-plus"></i>Ajouter application</a></li>
                   <li role="presentation" class="divider"></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="srvReboot" data-toggle="modal" data-target="#modal-warning">
@@ -73,8 +76,10 @@
                   </div>
                   <div class='col-md-6'>
                     <dl class="dl-horizontal">
-                      <dt>Etat :</dt>
+                      <dt>Statut :</dt>
                       <dd><span class="text-success"><strong>Power On</strong></span></dd>
+                      <dt>Etat VMtools :</dt>
+                        <dd><i class="fa fa-check text-success"></i></dd>
                     </dl>
                   </div>
                 </div>  
@@ -94,8 +99,10 @@
                         <dd>2</dd>
                       <dt>RAM :</dt>
                         <dd>8192 Octets</dd>
-                      <dt>Stockage :</dt>
+                      <dt>Stockage alloué :</dt>
                         <dd>75 Go</dd>
+                      <dt>Stockage occupé :</dt>
+                        <dd>12 Go</dd>  
                       <dt>&nbsp;</dt><dd>&nbsp;</dd>
                       <dt>Cluster :</dt>
                         <dd>VI4030-G</dd>
@@ -106,8 +113,11 @@
                         <dd>C1</dd>
                       <dt>PRA :</dt>
                         <dd>Haute Disponibilité</dd>
-                      <dt>xxxxxx :</dt>
-                        <dd>Fusce dapibus, tellus ac cursus commodo</dd>
+                      <dt>&nbsp;</dt><dd>&nbsp;</dd>
+                      <dt>Adresse IP :</dt>
+                        <dd>172.23.248.11</dd>
+                      <dt>Adresse MAC :</dt>
+                        <dd>00:50:56:87:db:3f</dd>
                     </dl>
                   </div>
                   <div class='col-md-6'>
@@ -125,24 +135,14 @@
                         <dd>P002016011 - Socle API V2</dd>
                       <dt>Code Budget facturation :</dt>
                         <dd>201725148954</dd>
-                      <dt>xxxxxx :</dt>
-                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-                      <dt>xxxxxx :</dt>
-                        <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                      <dt>xxxxxx :</dt>
-                        <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus.
-                      </dd>
-                      <dt>xxxxxx :</dt>
-                        <dd>A description list is perfect for defining terms.</dd>
-                      <dt>xxxxxx :</dt>
-                      <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-                      <dt>xxxxxx :</dt>
-                      <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                      <dt>xxxxxx :</dt>
-                      <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus.
-                      </dd>
+                      <dt>&nbsp;</dt><dd>&nbsp;</dd>
+                      <dt>&nbsp;</dt><dd>&nbsp;</dd>
+                      <dt>&nbsp;</dt><dd>&nbsp;</dd>
+                      <dt>Hote ESX :</dt>
+                        <dd>HVESX610</dd>
+                      <dt>Ressource Pool :</dt>
+                        <dd>BUILD/ABONNEMENTS</dd>
+                      
                     </dl>
                   </div>
                 </div>
@@ -266,7 +266,7 @@
               				  <span class="label label-success">Réussi</span>
               				</td>
               				<td>
-              				  TeamOto
+              				  TeamOtO
               				</td>
               				<td>
               				  Demande au CDSO de prise en compte
@@ -283,7 +283,7 @@
               				  <span class="label label-success">Réussi</span>
               				</td>
               				<td>
-              				  TeamOto
+              				  TeamOtO
               				</td>
               				<td>
               				  Recette de conformité
@@ -404,7 +404,7 @@
               				  <span class="label label-success">Réussi</span>
               				</td>
               				<td>
-              				  VRO
+              				  TeamOtO
               				</td>
               				<td>
               				  Fédération des identitées v3.62
@@ -554,6 +554,147 @@
                 
               </div>
               <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_fs">
+                <table class="table table-hover table-striped">
+                  <thead>
+                      <tr>
+                          <th>Nom disque ou FS</th>
+                          <th>Capacité</th>
+                          <th>Occupé</th>
+                          <th>Libre</th>
+                      </tr>
+                  </thead>
+                  <tbody>    
+                      <tr>
+                          <td>/ </td>
+                          <td> 3.99 Go </td>
+                          <td>1.74 Go</td>
+                          <td> 2.25 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/admin </td>
+                          <td> 0.12 Go </td>
+                          <td>0.01 Go</td>
+                          <td> 0.11 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/appli </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/appli_tech </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/boot </td>
+                          <td> 0.5 Go </td>
+                          <td>0.2 Go</td>
+                          <td> 0.3 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/data </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/data_sas </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/data_tech </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/data_tech/docker </td>
+                          <td> 9.99 Go </td>
+                          <td>0.33 Go</td>
+                          <td> 9.66 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/data_tech/docker/images/overlay </td>
+                          <td> 9.99 Go </td>
+                          <td>0.33 Go</td>
+                          <td> 9.66 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/home </td>
+                          <td> 0.12 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.12 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/log </td>
+                          <td> 0.5 Go </td>
+                          <td>0.03 Go</td>
+                          <td> 0.47 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/produit </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/tmp </td>
+                          <td> 1.49 Go </td>
+                          <td>0.03 Go</td>
+                          <td> 1.46 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/travail </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/travail/sys0/nmon </td>
+                          <td> 0.06 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.06 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/travail/sys0/systeme </td>
+                          <td> 0.12 Go </td>
+                          <td>0.01 Go</td>
+                          <td> 0.11 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/travail/sys0/users </td>
+                          <td> 0.12 Go </td>
+                          <td>0 Go</td>
+                          <td> 0.12 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/var </td>
+                          <td> 1.99 Go </td>
+                          <td>0.83 Go</td>
+                          <td> 1.16 Go</td>
+                      </tr>
+                      <tr>
+                          <td>/var/tmp </td>
+                          <td> 1.99 Go </td>
+                          <td>0.83 Go</td>
+                          <td> 1.16 Go</td>
+                      </tr>
+                      <tr>
+                          <td><b>Totaux :</b></td>
+                          <td>31.4 Go</td>
+                          <td>4.34 Go</td>
+                          <td>27.06 Go</td>
+                      </tr>
+                  </tbody>
+              </table> 
+              </div>
+              <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat, nisi a tristique congue, erat sem rutrum leo, id molestie ex tellus quis purus. Nunc vitae dui elit. Etiam eu leo sit amet turpis faucibus scelerisque ut eget libero. Etiam ac nisl volutpat, volutpat urna quis, dignissim nunc. Vestibulum vehicula urna orci, in viverra nunc venenatis eu. Nunc scelerisque iaculis posuere. Suspendisse potenti. Proin egestas, arcu at iaculis sagittis, nisi arcu dapibus felis, eu pharetra metus eros quis quam. Sed quis elit tincidunt arcu molestie dictum ut vel lorem. Mauris quis rutrum leo, a auctor massa. Sed ut venenatis augue. Sed accumsan tellus vitae mollis rutrum. Duis nec lectus placerat erat sodales imperdiet.
 
@@ -583,11 +724,75 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
             <!-- /.tab-content -->
           </div>
           <!-- nav-tabs-custom -->
-     
-      
-      
-      
-      
+           </div>
+          
+          
+          <div class="box hidden" id="formChangeConfigSrv">
+            <div class="box-header with-border">
+              <h3 class="box-title">Modification de la configuration Système de la VM</h3>
+            </div>
+              <form class="form-horizontal">
+                <div class="box-body">
+                  <div class="form-group">
+                     <label for="vcpu" class="col-md-2 control-label">Vcpu :</label>
+                     <div class="col-md-6">
+                       <!--input tabindex="4" id="vcpu" type="text" value="1" class="slider form-control" data-slider-min="1" data-slider-max="8"
+                             data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal"
+                             data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue"-->
+                       <input id="vcpu" type="text" class="slider form-control" data-slider-ticks="[1,2,4,6,8]" data-slider-ticks-snap-bounds="2" data-slider-id="blue" data-slider-value="1" tabindex="5"/>     
+                       <span id="vcpuVal">1</span> Vcpu
+                     </div>
+                  </div>
+  
+                 <div class="form-group">
+                     <label for="ram" class="col-md-2 control-label">Ram :</label>
+                     <div class="col-md-6">
+                       <input tabindex="5" id="ram" type="text" value="1" class="slider form-control" data-slider-min="2" data-slider-max="32"
+                             data-slider-step="2" data-slider-value="2" data-slider-orientation="horizontal"
+                             data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue">
+                       <span id="ramVal">2</span></span> Go
+                     </div>
+                  </div>
+  
+                 <div class="form-group">
+                    <label for="espaceDisque" class="col-md-2 control-label">Espace disque :</label>
+                    <div class="col-md-6">
+                      <select class="form-control" id="espaceDisque" style="width: 100%;" tabindex="6" aria-hidden="true">
+                        <option>75 Go</option>
+                        <option>150 Go</option>
+                        <option>200 Go</option>
+                        <option>300 Go</option>
+                        <option>400 Go</option>
+                        <option>500 Go</option>
+                        
+                      </select>
+                    </div> 
+                  </div>
+  
+                <div class="form-group">
+                     <label for="bail" class="col-md-2 control-label">Bail :</label>
+                     <div class="col-md-6">
+                       <input id="bail" type="text" class="slider form-control" data-slider-ticks="[3,10,30,60,90]" data-slider-ticks-snap-bounds="30" data-slider-id="blue" data-slider-value="1" tabindex="10"/>
+                       <span id="bailVal">2</span></span> jours
+                     </div>
+                </div>
+  
+  
+                </div>
+                </form>
+              <!-- /.box-body -->
+              <div class="box-footer">
+                <button class="btn btn-default" id="cancel">Cancel</button>
+                <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-createvm-info" id="btChangeVm" tabindex="11">Modifier</button>
+              </div>
+              <!-- /.box-footer -->
+            
+            
+            
+            
+            
+          </div>  
+        </div>   
       
       
       
@@ -607,7 +812,27 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
 	include_once '_templates/requiredJs.php';
 ?>
 
-<script> $('#inventaire').addClass('active');</script>
+<script> 
+$('#inventaire').addClass('active');
+
+$('#btChangeConfigSrv').click(function(){
+  $('#detailSrv').hide();
+  $('#formChangeConfigSrv').removeClass('hidden');
+})
+
+$('#cancel').click(function(){
+   $('#detailSrv').show();
+   $('#formChangeConfigSrv').addClass('hidden');
+});
+
+$('#btChangeVm').click(function(){
+   $('#detailSrv').show();
+   $('#formChangeConfigSrv').addClass('hidden');
+});
+
+$('.slider').slider();
+
+</script>
 
 </body>
 </html>

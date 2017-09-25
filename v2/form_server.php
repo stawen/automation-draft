@@ -26,6 +26,9 @@
         -------------------------->
         <div class="col-md-12">
           <div class="box box-solid" id="infoCreateVm">
+            <div class="box-header with-border">
+              <h3 class="box-title">Informations Générales</h3>
+            </div>
             <div class="box-body">
               
               <form class="form-horizontal">
@@ -91,7 +94,7 @@
                        <!--input tabindex="4" id="vcpu" type="text" value="1" class="slider form-control" data-slider-min="1" data-slider-max="8"
                              data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal"
                              data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue"-->
-                       <input id="vcpu" type="text" class="slider form-control" data-slider-ticks="[1,2,3,4,5,6,7,8]" data-slider-ticks-snap-bounds="1" data-slider-id="blue" data-slider-value="1" tabindex="5"/>     
+                       <input id="vcpu" type="text" class="slider form-control" data-slider-ticks="[1,2,4,6,8]" data-slider-ticks-snap-bounds="2" data-slider-id="blue" data-slider-value="1" tabindex="5"/>     
                        <span id="vcpuVal">1</span> Vcpu
                      </div>
                   </div>
@@ -171,22 +174,57 @@
                 <!-- /.box-body -->
                 <div class="box-footer">
                   <button class="btn btn-default" id="cancelCreatedSrv">Cancel</button>
-                  <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-createvm-info" id="btCreateVm" tabindex="11">Créer</button>
+                  <button class="btn btn-info pull-right" id="btSuivant" tabindex="11">Suivant</button>
                 </div>
                 <!-- /.box-footer -->
-              
-              
-              
-              
               
             </div>
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
+          
+          <div class="box box-solid hidden" id="addApplication">
+            <div class="box-header with-border">
+              <h3 class="box-title">Ajout d'application</h3>
+            </div>
+            <div class="box-body">
+              <div class="checkbox">
+                    <label><input type="checkbox">SOCLE V1.0</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">SAUVEGARDE</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">Docker Engine V1.13</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">EODE</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">IHME</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">JAVA 7</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">JAVA 8</label>
+              </div>
+              <div class="checkbox">
+                    <label><input type="checkbox">STP</label>
+              </div>
+            </div>
+            <div class="box-footer">
+                  <button class="btn btn-default" id="cancelCreatedSrv">Cancel</button>
+                  <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-createvm-info" id="btCreateVm" tabindex="11">Créer</button>
+                </div>
+          </div>
+          
+          
           <div class="box box-solid hidden" id="createVmOk">
             <div class="box-body">
               <div class="col-md-12">
                 <h2><i class="fa fa-check fa-2x text-success"></i>Creation de machine(s) virtuelle(s) demandée(s)</h2>
+                <small class="pull-right">Demande N°2922</small>
               </div>
             </div>
             <div class="box-footer">
@@ -264,6 +302,11 @@
   $("#nbVm").on("slide", function(slideEvt) {
     $("#nbVmVal").text(slideEvt.value);
   });
+  
+  $('#btSuivant').click(function(){
+    $('#infoCreateVm').hide();
+    $('#addApplication').removeClass('hidden')
+  });
 
   $('#cancelCreatedSrv').click(function(){
     window.location.replace("services_server.php");
@@ -271,7 +314,7 @@
   
   $('#btCreateVmModalConfirm').click(function(){
     $('#modal-createvm-info').modal('toggle');
-    $('#infoCreateVm').hide();
+    $('#addApplication').addClass('hidden')
     $('#createVmOk').removeClass('hidden');
   });
   
