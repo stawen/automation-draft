@@ -188,31 +188,133 @@
               <h3 class="box-title">Ajout d'application</h3>
             </div>
             <div class="box-body">
-              <div class="checkbox">
-                    <label><input type="checkbox">SOCLE V1.0</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">SAUVEGARDE</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">Docker Engine V1.13</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">EODE</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">IHME</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">JAVA 7</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">JAVA 8</label>
-              </div>
-              <div class="checkbox">
-                    <label><input type="checkbox">STP</label>
-              </div>
+              
+              <div class="row">
+                <!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">SOCLE V1.0</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">SAUVEGARDE</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">Docker Engine V1.13</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">EODE</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">IHME</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">JAVA 7</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">JAVA 8</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">STP</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">Client Oracle 12c</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">MariaDb</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">PostGre</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+             	</div>
+            
             </div>
+            
             <div class="box-footer">
                   <button class="btn btn-default" id="cancelCreatedSrv">Cancel</button>
                   <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-createvm-info" id="btCreateVm" tabindex="11">Créer</button>
@@ -322,6 +424,9 @@
     window.location.replace("suivi_service.php");
   });
   
+$(".img-check").click(function(){
+		$(this).toggleClass("check");
+	});
 </script>
 </body>
 </html>

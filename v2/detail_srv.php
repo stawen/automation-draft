@@ -739,8 +739,8 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
                        <!--input tabindex="4" id="vcpu" type="text" value="1" class="slider form-control" data-slider-min="1" data-slider-max="8"
                              data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal"
                              data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue"-->
-                       <input id="vcpu" type="text" class="slider form-control" data-slider-ticks="[1,2,4,6,8]" data-slider-ticks-snap-bounds="2" data-slider-id="blue" data-slider-value="1" tabindex="5"/>     
-                       <span id="vcpuVal">1</span> Vcpu
+                       <input id="vcpu" type="text" class="slider form-control" data-slider-ticks="[1,2,4,6,8]" data-slider-ticks-snap-bounds="2" data-slider-id="blue" data-slider-value="4" tabindex="5"/>     
+                       <span id="vcpuVal">4</span> Vcpu
                      </div>
                   </div>
   
@@ -748,9 +748,9 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
                      <label for="ram" class="col-md-2 control-label">Ram :</label>
                      <div class="col-md-6">
                        <input tabindex="5" id="ram" type="text" value="1" class="slider form-control" data-slider-min="2" data-slider-max="32"
-                             data-slider-step="2" data-slider-value="2" data-slider-orientation="horizontal"
+                             data-slider-step="2" data-slider-value="8" data-slider-orientation="horizontal"
                              data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue">
-                       <span id="ramVal">2</span></span> Go
+                       <span id="ramVal">8</span></span> Go
                      </div>
                   </div>
   
@@ -759,7 +759,7 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
                     <div class="col-md-6">
                       <select class="form-control" id="espaceDisque" style="width: 100%;" tabindex="6" aria-hidden="true">
                         <option>75 Go</option>
-                        <option>150 Go</option>
+                        <option selected>150 Go</option>
                         <option>200 Go</option>
                         <option>300 Go</option>
                         <option>400 Go</option>
@@ -769,21 +769,13 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
                     </div> 
                   </div>
   
-                <div class="form-group">
-                     <label for="bail" class="col-md-2 control-label">Bail :</label>
-                     <div class="col-md-6">
-                       <input id="bail" type="text" class="slider form-control" data-slider-ticks="[3,10,30,60,90]" data-slider-ticks-snap-bounds="30" data-slider-id="blue" data-slider-value="1" tabindex="10"/>
-                       <span id="bailVal">2</span></span> jours
-                     </div>
-                </div>
-  
-  
+                
                 </div>
                 </form>
               <!-- /.box-body -->
               <div class="box-footer">
                 <button class="btn btn-default" id="cancel">Cancel</button>
-                <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-createvm-info" id="btChangeVm" tabindex="11">Modifier</button>
+                <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-warning" id="btChangeVm" tabindex="11">Modifier</button>
               </div>
               <!-- /.box-footer -->
             
@@ -825,13 +817,21 @@ $('#cancel').click(function(){
    $('#formChangeConfigSrv').addClass('hidden');
 });
 
-$('#btChangeVm').click(function(){
+$('#srvModalWarningConfirm').click(function(){
    $('#detailSrv').show();
    $('#formChangeConfigSrv').addClass('hidden');
 });
 
 $('.slider').slider();
-
+$("#vcpu").on("slide", function(slideEvt) {
+  $("#vcpuVal").text(slideEvt.value);
+});
+$("#ram").on("slide", function(slideEvt) {
+  $("#ramVal").text(slideEvt.value);
+});
+$("#bail").on("slide", function(slideEvt) {
+  $("#bailVal").text(slideEvt.value);
+});
 </script>
 
 </body>
