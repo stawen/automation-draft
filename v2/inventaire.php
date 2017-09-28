@@ -57,7 +57,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php?srv=SL100298">SL100298</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-gear text-warning" title="En Préparation"></i></td>
             				<td>SRV DOCKER HOST PROJET IAAS DEMO</td>
             				<td></td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -71,7 +71,7 @@
             				<td>
             					<i class="fa fa-server">&nbsp;</i><a href="detail_srv.php?srv=SL100299">SL100299</a> 
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-gear text-warning" title="En Préparation"></i></td>
             				<td>SRV DOCKER HOST PROJET IAAS DEMO</td>
             				<td></td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -85,7 +85,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php?srv=SL100329">SL100329</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-gear text-warning" title="En Préparation"></i></td>
             				<td>ARGOS - Ansible</td>
             				<td>DEV</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -99,7 +99,7 @@
             				<td>
             					<i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100351</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/check.png" title="En SERVICE"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Docker Rancher Orchestrator - MariaDB</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -113,7 +113,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100373</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Docker Rancher Orchestrator - Cluster Applicatif</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -127,7 +127,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100374</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Docker Rancher Orchestrator - Cluster Applicatif</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -141,7 +141,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100380</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Technique</td>
             				<td>DEV</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -155,7 +155,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100385</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -169,7 +169,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100392</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -183,7 +183,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100393</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -197,7 +197,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100394</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -211,7 +211,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100395</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -225,7 +225,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100396</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -239,7 +239,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100397</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -253,7 +253,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100398</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -267,7 +267,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100399</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -281,7 +281,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100400</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Argos ELK - Gestion des Logs Techniques</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -295,7 +295,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100417</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>VM pour POC Ansible - MCO 2017 - R002017002</td>
             				<td>DEV</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -309,7 +309,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100418</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>VM pour POC Ansible - MCO 2017 - R002017002</td>
             				<td>DEV</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -323,7 +323,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100419</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>VM pour POC Ansible - MCO 2017 - R002017002</td>
             				<td>DEV</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -337,7 +337,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100444</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>TTECH RANCHER</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -351,7 +351,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100445</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>TTECH RANCHER</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -365,7 +365,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100455</a>
             				</td>
-            				<td><img src="/v2/asset/img/redcross.png" title="Ping KO (14-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-times text-danger" title="Ping KO"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>TEST RANCHER</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -379,7 +379,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100483</a>
             				</td>
-            				<td><img src="/v2/asset/img/redcross.png" title="Ping KO (01-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-times text-danger" title="Ping KO"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>test wil</td>
             				<td></td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -393,7 +393,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100491</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP4 - D - FDII - Identity Provider - PingIdentity - Cluster LAN PProd Tech</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -407,7 +407,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100492</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP3 - D - FDII - Identity Provider - PingIdentity - Cluster LAN PProd Tech</td>
             				<td>TTECH</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -421,7 +421,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100493</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP4 - K - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
             				<td>PERF</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -435,7 +435,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100494</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP3 - K - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
             				<td>PERF</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -449,7 +449,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100497</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Remplacement Minify</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -463,7 +463,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100512</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP1 - D - FDII - Identity Provider - PingIdentity - LAN</td>
             				<td>DEV</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -477,7 +477,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100513</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP2 - I - FDII - Identity Provider - PingIdentity - LAN</td>
             				<td>INT</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -491,7 +491,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100515</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP1 - E - FDII - Identity Provider - PingIdentity - LAN</td>
             				<td>FORM</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -505,7 +505,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100516</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP6 - E - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -519,7 +519,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100517</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>IDP5 - E - FDII - Identity Provider - PingIdentity - Cluster LAN</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -533,7 +533,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100518</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>TEST DOCKER</td>
             				<td></td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -547,7 +547,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100523</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Amélioration exploitabilité serveurs</td>
             				<td>INT</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -561,7 +561,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100524</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Amélioration exploitabilité serveurs</td>
             				<td>INT</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -575,7 +575,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100525</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Amélioration exploitabilité serveurs</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -589,7 +589,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100526</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Amélioration exploitabilité serveurs</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -603,7 +603,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100527</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-check text-success" title="En Service"></i></td>
             				<td>Amélioration exploitabilité serveurs</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -617,7 +617,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100528</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Amélioration exploitabilité serveurs</td>
             				<td>PROD</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -631,7 +631,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100555</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>POC Serveur Neoj4 projet Fraude/Graph BDD</td>
             				<td></td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -645,7 +645,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100558</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/projet.png" title="LIVRE PROJET"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Ansible Recette</td>
             				<td>REC</td>
             				<td><img src="/v2/asset/img/redhat.png" title="Red Hat Enterprise Linux 7 (64-bit)"></td>
@@ -659,7 +659,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100559</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>Syslog-ng ELK</td>
             				<td></td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -673,7 +673,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100564</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>demo IaaS-Rancher</td>
             				<td></td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -687,7 +687,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100567</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>demo stan</td>
             				<td></td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -701,7 +701,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100569</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>IaaS - test Postgres dans Docker</td>
             				<td></td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -715,7 +715,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100570</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>IaaS - test Postgres dans Docker</td>
             				<td></td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>
@@ -729,7 +729,7 @@
             				<td>
             					 <i class="fa fa-vimeo">&nbsp;</i><a href="detail_srv.php">SL100571</a>
             				</td>
-            				<td><img src="/v2/asset/img/check.png" title="Ping OK (22-09-2017)"> <img src="/v2/asset/img/check.png" title="Inventorié le 22-09-2017"><img src="/v2/asset/img/wall.png" title="EN PREPARATION"></td>
+            				<td><i class="fa fa-check text-success" title="Ping OK"></i>  <i class="fa fa-check text-success" title="Inventaire OK"></i><i class="fa fa-coffee text-info" title="Projet"></i></td>
             				<td>IaaS - test Postgres dans Docker</td>
             				<td></td>
             				<td><img src="/v2/asset/img/centos.png" title="CentOS 4/5/6/7 (64-bit)"></td>

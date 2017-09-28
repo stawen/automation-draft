@@ -18,7 +18,8 @@
 <script src="/bower_components/select2/dist/js/select2.min.js"></script>
 <!-- Bootstrap slider -->
 <script src="/plugins/bootstrap-slider/bootstrap-slider.js"></script>
-
+<!-- X-Editable -->
+<script src="/v2/asset/js/bootstrap-editable.min.js"></script>
 <!-- data for demo -->
 <script src="/v2/asset/js/data-demo.js"></script>
 <!-- Optionally, you can add Slimscroll and FastClick plugins.

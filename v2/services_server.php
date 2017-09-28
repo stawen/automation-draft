@@ -25,7 +25,8 @@
        <!--------------------------
         | Your Page Content Here |
         -------------------------->
-        <div class="nav-tabs-custom">
+        <div class="col-md-12">
+          <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#tab_1" data-toggle="tab">Virtuel</a></li>
               <li><a href="#tab_2" data-toggle="tab">Physique</a></li>
@@ -148,6 +149,17 @@
                     </div>
                   </div>
                   
+                  <div class="col-md-2">
+                    <div class="box box-services">
+                      <div class="box-body">
+                        <a href="#" class="srv-choice"><img class="profile-user-img img-responsive img-circle hoverable" src="/v2/asset/img/aix.png" alt="Centos"></a>
+                        <h3 class="profile-username text-center">AIX 7</h3>
+                        <p class="text-muted text-center">loren ipsum</p>
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                  </div>
+                  
                 </div>
                 
                 <div class="row">
@@ -238,7 +250,7 @@
             </div>
             <!-- /.tab-content -->
           </div>
-     
+        </div>
       
       
       

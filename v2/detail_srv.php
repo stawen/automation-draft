@@ -47,7 +47,7 @@
                 <ul class="dropdown-menu">
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="srvRefresh"><i class="fa fa-refresh"></i>Forcer Refresh</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="btChangeConfigSrv"><i class="fa fa-pencil"></i>Modifier Config System</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-plus"></i>Ajouter application</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="btAddApplication"><i class="fa fa-plus"></i>Ajouter application</a></li>
                   <li role="presentation" class="divider"></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="srvReboot" data-toggle="modal" data-target="#modal-warning">
                     <i class="fa fa-undo"></i>Redemarrer</a>
@@ -83,7 +83,7 @@
                     </dl>
                   </div>
                 </div>  
-                 <div class='row'> 
+                <div class='row'> 
                   <div class='col-md-6'>
                     <dl class="dl-horizontal ">
                       <dt>Description :</dt>
@@ -778,12 +778,161 @@ Mauris nec urna turpis. Nullam ac libero mauris. Vestibulum imperdiet, lectus ut
                 <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-warning" id="btChangeVm" tabindex="11">Modifier</button>
               </div>
               <!-- /.box-footer -->
+           </div>  
+          
+          <div class="box hidden" id="formAddApplication">
+            <div class="box-header with-border">
+              <h3 class="box-title">Ajout d'application(s)</h3>
+            </div>
+            <div class="box-body">
+              
+              <div class="row">
+                <div class="col-md-12"><h4>Application(s) installé(es)</h4></div>
+                <!-- DEBUT bouton applicatopn -->
+                <div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/socle.png" class="img-check profile-user-img img-circle hoverable check-application check">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2"  class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">SOCLE V1.0</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/backup.png" class="img-check profile-user-img img-circle hoverable check-application check">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">SAUVEGARDE</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/docker.png" class="img-check profile-user-img img-circle hoverable check-application check">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">Docker Engine V1.13</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<div class="col-md-12"><h3>Ajouter</h3></div>
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/eode.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">EODE</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/ihme.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">IHME</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/stp.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">STP</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            	</div>
+            	<div class="row">
+            		
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/clientOracle12c.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">Client Oracle 12c</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+
+            	</div>
+            	<div class="row">
+            	
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/java.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">JAVA 7</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/java.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">JAVA 8</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		
+            	
+            	</div>
+            	<div class="row">
+            		
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/mariadb.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">MariaDb</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/postgresql.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">PostGreSQL</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+             	</div>
             
-            
-            
-            
-            
-          </div>  
+            </div>
+              <!-- /.box-body -->
+              <div class="box-footer">
+                <button class="btn btn-default" id="cancel">Cancel</button>
+                <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-warning" tabindex="11">Ajouter</button>
+              </div>
+              <!-- /.box-footer -->
+           </div> 
+          
         </div>   
       
       
@@ -810,7 +959,14 @@ $('#inventaire').addClass('active');
 $('#btChangeConfigSrv').click(function(){
   $('#detailSrv').hide();
   $('#formChangeConfigSrv').removeClass('hidden');
-})
+});
+
+
+$('#btAddApplication').click(function(){
+  $('#detailSrv').hide();
+  $('#formAddApplication').removeClass('hidden');
+});
+
 
 $('#cancel').click(function(){
    $('#detailSrv').show();
@@ -820,6 +976,7 @@ $('#cancel').click(function(){
 $('#srvModalWarningConfirm').click(function(){
    $('#detailSrv').show();
    $('#formChangeConfigSrv').addClass('hidden');
+   $('#formAddApplication').addClass('hidden');
 });
 
 $('.slider').slider();
@@ -832,6 +989,12 @@ $("#ram").on("slide", function(slideEvt) {
 $("#bail").on("slide", function(slideEvt) {
   $("#bailVal").text(slideEvt.value);
 });
+
+
+$(".img-check").click(function(){
+		$(this).toggleClass("check");
+});
+
 </script>
 
 </body>

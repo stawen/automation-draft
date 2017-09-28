@@ -81,7 +81,7 @@ $(function () {
     $('#serveur_filter').hide();
     $('#serverSearch').keyup(function(){
       o.search($(this).val()).draw() ;
-})
+	})
     
 });
 
@@ -95,16 +95,3 @@ $('#srvModalWarningConfirm').click(function(){
 		
 });
 
-var env = {
-	'E-PRODUCTION':{
-		'C1':[
-			'Haute Disponibilié',
-			'Logiciel'
-		],
-		'C2':[
-			'sdjffj',
-			'Restauration'
-		],
-		
-	}
-};

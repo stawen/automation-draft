@@ -50,7 +50,7 @@
           </ul>
         </li-->
         
-        <li id="projet"><a href="#"><i class="fa fa-coffee"></i> <span>Suivi Projet</span></a></li>
+        <li id="projet"><a href="suivi_projet.php"><i class="fa fa-coffee"></i> <span>Suivi Projet</span></a></li>
         <li id="demantel"><a href="#"><i class="fa fa-trash"></i> <span>Démantèlements</span></a></li>
         
         <li id="services"><a href="suivi_service.php"><i class="fa fa-cubes"></i> <span>Suivi Services</span></a></li>

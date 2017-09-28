@@ -21,12 +21,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
         page. However, you can choose any other skin. Make sure you
         apply the skin class to the body tag so the changes take effect. -->
   <link rel="stylesheet" href="/dist/css/skins/skin-green.min.css">
-    <!-- Pace style -->
+  <!-- Pace style -->
   <link rel="stylesheet" href="/plugins/pace/pace.min.css">
   <!-- Select2 -- custom stan car le style n'allait pas avec les formulaires par defaut-->
   <link rel="stylesheet" href="/bower_components/select2/dist/css/select2.css">
-    <!-- bootstrap slider -->
+  <!-- bootstrap slider -->
   <link rel="stylesheet" href="/plugins/bootstrap-slider/slider.css">
+  <!-- X-Editable -->
+  <link rel="stylesheet" href="/v2/asset/css/bootstrap-editable.css">
   <!-- Custom Theme Automation V2 -->
   <link rel="stylesheet" href="/v2/asset/css/custom.css">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

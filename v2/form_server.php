@@ -19,7 +19,9 @@
 
     <!-- Main content -->
     <section class="content container-fluid">
-
+    
+   
+    
       <div class="row">
        <!--------------------------
         | Your Page Content Here |
@@ -56,9 +58,9 @@
                     </div>  
                   </div>
                   <div class="form-group">
-                    <label for="projet" class="col-md-2 control-label">Chef de projet :</label>
+                    <label for="CP" class="col-md-2 control-label">Chef de projet :</label>
                     <div class="col-md-6">
-                      <select class="form-control" id="projet" style="width: 100%;" tabindex="3" aria-hidden="true">
+                      <select class="form-control" id="CP" style="width: 100%;" tabindex="3" aria-hidden="true">
                         <option selected="selected"></option>
                         <option>Stanislas DRAUNET</option>
                         <option>Julien CLAUZEL</option>
@@ -69,7 +71,20 @@
                       </select>
                     </div>  
                   </div>
-                  
+                  <div class="form-group">
+                    <label for="SI" class="col-md-2 control-label">SI de rattachement :</label>
+                    <div class="col-md-6">
+                      <select class="form-control selectSearch" id="SI" style="width: 100%;" tabindex="2" aria-hidden="true">
+                        <option>INDEFINI</option>
+                        <option>360 Learning</option>
+                        <option>Docupost</option>
+                        <option>P002016010 - Argos</option>
+                        <option>PN Iard</option>
+                        <option>TIBCO</option>
+                        <option>etc etc</option>
+                      </select>
+                    </div>  
+                  </div>
                   <div class="form-group">
                     <label for="codeBudget" class="col-md-2 control-label">Code Budget :</label>
   
@@ -194,7 +209,7 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/socle.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
               		  <div class="col-md-12 text-center">SOCLE V1.0</div>
@@ -205,29 +220,7 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
-              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
-              		  </label>
-              		  <div class="col-md-12 text-center">SAUVEGARDE</div>
-            		  </div>
-            		</div>
-            		<!-- FIN bouton application -->
-            		<!-- DEBUT bouton applicatopn -->
-        				<div class="col-md-2">
-            		  <div class="row">
-              		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
-              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
-              		  </label>
-              		  <div class="col-md-12 text-center">Docker Engine V1.13</div>
-            		  </div>
-            		</div>
-            		<!-- FIN bouton application -->
-            		<!-- DEBUT bouton applicatopn -->
-        				<div class="col-md-2">
-            		  <div class="row">
-              		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/eode.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
               		  <div class="col-md-12 text-center">EODE</div>
@@ -238,7 +231,7 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/ihme.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
               		  <div class="col-md-12 text-center">IHME</div>
@@ -249,7 +242,46 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/stp.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">STP</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            	</div>
+            	<div class="row">
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/backup.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">SAUVEGARDE</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/clientOracle12c.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
+              		  </label>
+              		  <div class="col-md-12 text-center">Client Oracle 12c</div>
+            		  </div>
+            		</div>
+            		<!-- FIN bouton application -->
+
+            	</div>
+            	<div class="row">
+            	
+            		<!-- DEBUT bouton applicatopn -->
+        				<div class="col-md-2">
+            		  <div class="row">
+              		  <label class="col-md-12 text-center">
+              		    <img src="/v2/asset/img/java.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
               		  <div class="col-md-12 text-center">JAVA 7</div>
@@ -260,7 +292,7 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/java.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
               		  <div class="col-md-12 text-center">JAVA 8</div>
@@ -271,29 +303,22 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/docker.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
-              		  <div class="col-md-12 text-center">STP</div>
+              		  <div class="col-md-12 text-center">Docker Engine V1.13</div>
             		  </div>
             		</div>
             		<!-- FIN bouton application -->
+            	
+            	</div>
+            	<div class="row">
+            		
             		<!-- DEBUT bouton applicatopn -->
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
-              		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
-              		  </label>
-              		  <div class="col-md-12 text-center">Client Oracle 12c</div>
-            		  </div>
-            		</div>
-            		<!-- FIN bouton application -->
-            		<!-- DEBUT bouton applicatopn -->
-        				<div class="col-md-2">
-            		  <div class="row">
-              		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/mariadb.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
               		  <div class="col-md-12 text-center">MariaDb</div>
@@ -304,10 +329,10 @@
         				<div class="col-md-2">
             		  <div class="row">
               		  <label class="col-md-12 text-center">
-              		    <img src="/v2/asset/img/centos_large.png" class="img-check profile-user-img img-circle hoverable check-application">
+              		    <img src="/v2/asset/img/postgresql.png" class="img-check profile-user-img img-circle hoverable check-application">
               		    <input type="checkbox" name="chk1" id="item4" value="val2" class="hidden" autocomplete="off">
               		  </label>
-              		  <div class="col-md-12 text-center">PostGre</div>
+              		  <div class="col-md-12 text-center">PostGreSQL</div>
             		  </div>
             		</div>
             		<!-- FIN bouton application -->
@@ -426,7 +451,10 @@
   
 $(".img-check").click(function(){
 		$(this).toggleClass("check");
-	});
+});
+	
+
+
 </script>
 </body>
 </html>
